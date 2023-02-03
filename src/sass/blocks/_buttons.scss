@@ -14,4 +14,16 @@
         height: 50px;
         font-size: 16px;
     }
+    &_submit{
+        width: 100%;
+        height: 55px;
+        color:#fff;
+        font-size: 16px;
+        background-color: #C70101 ;
+        &:hover{
+            transform: scale(105%);
+            background-color: #D7351F;
+            transition: 0.2s;
+        }
+    }
 }

@@ -1,0 +1,54 @@
+.benefits{
+    min-height: 475px;
+    padding: 75px 0 60px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__big{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #0D0D0D;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__block{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        max-width: 240px;
+    }
+    &__icon{
+        display: block;
+        margin: 0 auto;
+        max-width: 70px;
+
+    }
+    &__header{
+        margin-top: 45px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__subheader{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 25px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__link{
+        font-family: 'MuseoModerno';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #FF0000;
+    }
+    
+}
