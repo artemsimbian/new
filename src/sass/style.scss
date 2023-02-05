@@ -1,12 +1,23 @@
 @import 'base/variables';
- *{
-    font-family: 'MuseoSansCyrl' sans-serif;
+ html{
+    font-family: 'MuseoModerno';
 
 }
+body {
+    margin: 0;
+    padding: 0;
+   }
 .container{
     max-width: 950px;
     margin: 0 auto;
 }
+
+@media (max-width: 768px){
+    .container{
+        max-width: 95%;
+    }
+}
+
 @import 'blocks/promo';
 @import 'blocks/header.scss';
 @import 'blocks/buttons';

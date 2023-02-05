@@ -9,3 +9,19 @@
         color: #FFFFFF;
     }
 }
+
+@media(max-width: 768px){
+    .consultation{
+        min-height: 680px;
+        padding: 30px 0 50px 0;
+        background: url('../../img/bg2.png') center (center/cover) no-repeat;
+        &__descr{
+            width: 80%;
+            font-family: 'MuseoModerno';
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+    }
+    
+}

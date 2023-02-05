@@ -20,10 +20,15 @@
         color:#fff;
         font-size: 16px;
         background-color: #C70101 ;
+        transition: 0.5s;
         &:hover{
-            transform: scale(105%);
+            transform: scale(90%);
             background-color: #D7351F;
-            transition: 0.2s;
         }
+    }
+    &_mini{
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
     }
 }
