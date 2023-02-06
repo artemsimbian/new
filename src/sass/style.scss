@@ -1,6 +1,9 @@
 @import 'base/variables';
+
+
+
  html{
-    font-family: 'MuseoModerno';
+    font-family: 'MuseoModerno','Montserrat ', sans-serif;
 
 }
 body {
@@ -17,6 +20,12 @@ body {
         max-width: 95%;
     }
 }
+@media (max-width: 768px){
+    .container{
+        max-width: 95%;
+    }
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/header.scss';
@@ -27,3 +36,5 @@ body {
 @import 'blocks/forms.scss';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer.scss';
