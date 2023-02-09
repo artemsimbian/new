@@ -6,9 +6,21 @@
         font-family: 'MuseoModerno';
         font-size: 20px;
         line-height: 30px;
-        color: #FFFFFF;
+        color: #FFFFFF;}
+
+        .error {
+            border: 1px solid red;
+        }
+        label.error {
+            font-size: 13px;
+            color: #cbcbcb;
+            border: none;
+            margin-bottom: 14px;
+        }
     }
-}
+    
+
+
 
 @media(max-width: 768px){
     .consultation{
