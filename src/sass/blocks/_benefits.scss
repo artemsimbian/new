@@ -19,12 +19,20 @@
         flex-direction: column;
         max-width: 240px;
     }
+
+    
     &__icon{
         display: block;
         margin: 0 auto;
         max-width: 70px;
-
+        &_animated{
+            animation: heartbeat 1.5s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
     }
+    
     &__header{
         margin-top: 45px;
         font-weight: 700;
@@ -50,5 +58,4 @@
         text-decoration-line: underline;
         color: #FF0000;
     }
-    
 }
